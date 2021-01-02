@@ -1,0 +1,82 @@
+body{
+	background: linear-gradient(90deg, #33cccc 10%, #FFEDBC 90%);
+}
+
+div{
+	margin: 100px auto;
+	width: 360px;
+	background-color: #F7F7F7;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+	font-family: 'Parisenne', cursive;
+}
+
+h1{
+	background: linear-gradient(90deg, #33cccc 10%, #00ff99 90%);
+	text-align: center;
+	color: white;
+	margin: 0px;
+	padding: 10px 20px;
+}
+
+.fa-plus{
+	float: right;
+	padding-top: 10px;
+}
+
+span{
+	background-color: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+}
+
+li:hover span{
+	width: 40px;
+	transition: 0.5s;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	background-color: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #555;
+}
+
+li:nth-child(2n){
+	background-color: #f7f7f7;
+}
+
+input{
+	background-color: #f7f7f7;
+	margin: 0px;
+	border-width: 0px;
+	width: 360px;
+	height: 40px;
+	color: #3385ff;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'Parisenne', cursive;
+	line-height: 40px;
+	padding: 15px 10px 5px 20px;
+	box-sizing: border-box;
+}
+
+input:focus{
+	background-color: white;
+	border: 1px solid #3385ff;
+	outline: none;
+}
+
+.done{
+	text-decoration-line: line-through;
+	color: #9999ff;
+}
